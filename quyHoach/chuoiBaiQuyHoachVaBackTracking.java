@@ -74,4 +74,31 @@ class Bai13{
     //22
     //23
     //33
+    public boolean check(String chuoi){
+        char a[] = chuoi.toCharArray();
+        for(int i = 0;i<a.length-1;i++){
+            if(a[i]>a[i+1]) return false;
+        }
+        return true;
+    }
+    List<String> list = new ArrayList<>();
+    public void add(int n,int k, String chuoi){
+        if(chuoi.length()==k&&check(chuoi)){
+            list.add(chuoi);
+            return;
+        }
+        if(chuoi.length()>k) return;
+        for(int i = 1;i<=n;i++){
+            add(n,k,chuoi+i);
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n =  sc.nextInt();
+        int k = sc.nextInt();
+        Bai13 t = new Bai13();
+        t.add(n,k,"");
+        for(String i : t.list) System.out.println(i);
+    }
 }
