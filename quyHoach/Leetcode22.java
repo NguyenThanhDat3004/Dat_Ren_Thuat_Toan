@@ -43,8 +43,14 @@ public class Leetcode22 {
         int n =sc.nextInt();
         Leetcode22 t = new Leetcode22();
         t.sinhChuoi(n,"");
-        for (String i : t.list) {
-            System.out.println("[\"" + i + "\"]");
+        System.out.print("[");
+        for(int i = 0;i<t.list.size();i++){
+            if(i!=t.list.size()-1){
+                System.out.print("\"" + t.list.get(i) + "\",");
+            }else{
+                System.out.print("\"" + t.list.get(i) + "\"");
+            }
         }
+        System.out.print("]");
     }
 }
