@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
-      <module fileurl="file://$PROJECT_DIR$/chuoi_leetcode.iml" filepath="$PROJECT_DIR$/chuoi_leetcode.iml" />
-=======
       <module fileurl="file://$PROJECT_DIR$/heap/heap.iml" filepath="$PROJECT_DIR$/heap/heap.iml" />
       <module fileurl="file://$PROJECT_DIR$/mosaic_code.iml" filepath="$PROJECT_DIR$/mosaic_code.iml" />
->>>>>>> f8b0352cde2d0d5769568b07741860829e4e6ad8
     </modules>
   </component>
 </project>

@@ -4,8 +4,4 @@
 # Environment-dependent path to Maven home directory
 /mavenHomeManager.xml
 # CodeStream ignored files
-<<<<<<< HEAD
-/../../chuoi_leetcode\.idea/codestream.xml
-=======
 /../../mosaic_code\.idea/codestream.xml
->>>>>>> f8b0352cde2d0d5769568b07741860829e4e6ad8
